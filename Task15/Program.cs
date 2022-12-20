@@ -4,7 +4,7 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
-Console.Write("Введите цифру, обозначающую день недели: ");
+Console.WriteLine("Введите цифру, обозначающую день недели: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 bool IsHoliday(int num)
