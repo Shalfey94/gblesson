@@ -10,3 +10,22 @@ for (int i = 0; i < array.Length ; i++)
   Console.WriteLine(array[i]);
 }
 
+// int[] array = new int[8];
+
+// void Random(int[] arr)
+// {
+// 	for (int i = 0; i < arr.Length; i++)
+// 	{
+// 		arr[i] = new Random().Next(0, 2);
+// 	}
+// }
+// Random(array);
+
+// void PrintArray(int[] arr)
+// {
+// 	for (int i = 0; i < arr.Length; i++)
+// 	{
+// 		Console.WriteLine(arr[i]);
+// 	}
+// }
+// PrintArray(array);
