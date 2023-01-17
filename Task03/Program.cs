@@ -8,33 +8,33 @@ string day = Console.ReadLine();
 
 if (day == "1")
 {
-	Console.WriteLine("День недели - понедельник");
+    Console.WriteLine("День недели - понедельник");
 }
 else if (day == "2")
 {
-	Console.WriteLine("День недели - вторник");
+    Console.WriteLine("День недели - вторник");
 }
 else if (day == "3")
 {
-	Console.WriteLine("День недели - среда");
+    Console.WriteLine("День недели - среда");
 }
 else if (day == "4")
 {
-	Console.WriteLine("День недели - четверг");
+    Console.WriteLine("День недели - четверг");
 }
 else if (day == "5")
 {
-	Console.WriteLine("День недели - пятница");
+    Console.WriteLine("День недели - пятница");
 }
 else if (day == "6")
 {
-	Console.WriteLine("День недели - суббота");
+    Console.WriteLine("День недели - суббота");
 }
 else if (day == "7")
 {
-	Console.WriteLine("День недели - воскресенье");
+    Console.WriteLine("День недели - воскресенье");
 }
 else
 {
-	Console.WriteLine("Неправильно введен номер");
+    Console.WriteLine("Неправильно введен номер");
 }
