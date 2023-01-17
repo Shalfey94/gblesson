@@ -30,7 +30,14 @@ int[] MultiArray(int[] array)
     int[] newArr = new int[size];
     for (int i = 0; i < size; i++)
     {
-        newArr[i] = array[i] * array[array.Length - 1 - i];
+        if (i == newArr.Length - 1 && array.Length % 2 == 1)
+        {
+            newArr[i] = array[i];
+        }
+        else
+        {
+            newArr[i] = array[i] * array[array.Length - 1 - i];
+        }    
     }
     return newArr;
 }
