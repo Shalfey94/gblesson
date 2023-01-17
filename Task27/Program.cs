@@ -14,10 +14,17 @@ Console.WriteLine($"Сумма цифр числа равна: {result}");
 int DigitSum(int num)
 {
     int sum = 0;
-    while (num > 0)
+    while (num != 0)
     {
         sum = sum + num % 10;
         num = num / 10;
     }
-    return sum;
+    if(sum > 0)
+    {
+        return sum;
+    }
+    else
+    {
+        return sum * -1;
+    }
 }    
