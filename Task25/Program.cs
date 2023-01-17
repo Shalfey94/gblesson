@@ -7,8 +7,15 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-int result = DegreeNumber(number1, number2);
-Console.WriteLine($"Первое число в степени второго числа равно: {result}");
+if (number2 >= 0) 
+{
+    int result = DegreeNumber(number1, number2);
+    Console.WriteLine($"Первое число в степени второго числа равно: {result}");
+}
+else 
+{
+    Console.WriteLine("Второе число должно быть натуральным");
+}
 
 int DegreeNumber (int num1, int num2)
 {
