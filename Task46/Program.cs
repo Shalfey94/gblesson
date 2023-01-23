@@ -25,7 +25,7 @@ void PrintMatrix(int[,] matrix)
             if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j], 4},");
             else Console.Write($"{matrix[i, j], 4}  ");
         }
-        Console.Write("]" + "\n");
+        Console.WriteLine("]");
     }
 }
 
