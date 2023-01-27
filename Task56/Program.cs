@@ -61,4 +61,4 @@ int RowSumMinimum(int[,] matrix)
 int[,] array2D = CreateMatrixRndInt(4, 5, -10, 10);
 PrintMatrix(array2D);
 int rowMinimum = RowSumMinimum(array2D);
-Console.WriteLine($"Номер строки с наименьшей суммой элементов: {rowMinimum}");
+Console.WriteLine($"Номер строки с наименьшей суммой элементов: {rowMinimum} строка");
